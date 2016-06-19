@@ -1,0 +1,539 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -127.99999999999997 -128.00000000000003 797.29 836.66
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {322.725 1 1.0} {404.453 1@studnia1} cave.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -scale [141.5 4.0 8.25 150.0 0.0 0.0 1 1 m]
+
+point 307.75 393.75 entrance
+
+line pit -close on
+  322.727 404.453
+  311.0 417.25
+  303.75 411.5
+  324.75 386.0
+  333.0 392.25
+  322.727 404.453
+endline
+
+point 356.337 297.503 station -name 2@surface
+
+point 322.727 404.453 station -name 1@surface
+
+endscrap
+
+
+
+scrap scrap2 -projection plan -scale [141.5 4.0 8.25 150.0 0.0 0.0 1 1 m]
+
+point 356.337 297.503 station -name 2@surface -visibility off
+
+line pit -close on
+  595.745 161.763
+  604.75 189.5
+  597.75 192.25
+  579.5 139.5
+  586.75 137.0
+  595.745 161.763
+endline
+
+point 595.745 161.763 station -name 3@surface
+
+endscrap
+
+
+
+scrap scrap3 -projection plan -scale [141.5 4.0 8.25 150.0 0.0 0.0 1 1 m]
+
+line wall -subtype presumed
+  353.5 377.25
+  395.25 339.75
+endline
+
+line wall
+  318.75 437.5
+  320.25 432.25
+  320.75 427.25
+  323.5 421.75
+  327.25 418.5
+  331.75 414.0
+  335.5 408.75
+  337.25 402.5
+  337.25 397.25
+  353.5 377.25
+endline
+
+point 316.5 445.0 continuation
+
+line wall
+  351.5 374.5
+  333.0 392.25
+  324.75 386.0
+  303.75 411.5
+  311.0 417.25
+  309.75 419.0
+  307.5 419.5
+  305.25 419.0
+  305.5 421.75
+  305.5 424.5
+  306.25 427.25
+  309.75 428.5
+  313.0 429.0
+  314.75 432.5
+  314.75 437.5
+endline
+
+line wall -subtype presumed
+  393.75 337.75
+  351.5 374.5
+endline
+
+line rock-border -close on -reverse on
+  320.75 418.75
+  319.0 417.25
+  316.5 418.25
+  317.25 421.25
+  320.25 421.0
+  320.75 418.75
+endline
+
+line floor-step -reverse on
+  313.0 429.0
+  320.75 427.25
+endline
+
+line pit -close on
+  333.75 393.5
+  337.25 397.25
+  332.75 398.75
+  333.75 393.5
+endline
+
+line rock-border -close on -reverse on
+  328.75 412.5
+  326.5 408.5
+  321.0 408.5
+  319.75 412.0
+  322.0 414.0
+  326.0 414.0
+  328.75 412.5
+endline
+
+point 322.727 404.453 station -name 5@studnia1
+
+point 340.105 415.493 station -name 6@studnia1
+
+endscrap
+
+
+
+scrap scrap4 -projection plan -scale [141.5 4.0 8.25 150.0 0.0 0.0 1 1 m]
+
+line floor-step
+endline
+
+point 578.75 130.0 continuation
+
+line wall -subtype presumed
+endline
+
+line pit -close on -reverse on
+  156.25 603.0
+  160.5 617.75
+  172.5 614.5
+  168.25 600.25
+  156.25 603.0
+endline
+
+line floor-step
+  206.5 585.75
+  214.25 603.5
+endline
+
+line rock-border -close on
+  76.25 644.0
+  74.25 639.0
+  79.75 636.5
+  82.75 641.5
+  76.25 644.0
+endline
+
+line rock-border -reverse on
+  68.75 640.5
+  76.0 638.5
+  73.0 632.25
+endline
+
+line wall -subtype presumed
+  74.75 647.0
+  78.5 657.0
+endline
+
+line floor-step -reverse on
+  296.25 540.0
+  320.25 550.5
+endline
+
+line rock-edge
+  368.0 445.25
+  372.75 440.25
+  382.75 440.75
+endline
+
+line rock-edge
+  354.0 485.5
+  349.25 481.5
+  349.5 475.75
+  355.25 468.25
+  359.5 459.0
+  364.75 452.25
+  368.0 445.25
+endline
+
+line floor-step
+  330.0 476.75
+  357.25 492.75
+endline
+
+line pit -close on
+  289.5 561.75
+  301.75 568.5
+  293.0 577.75
+  285.0 563.25
+  289.5 561.75
+endline
+
+line wall
+  80.25 644.75
+  78.25 638.75
+  299.25 571.5
+  297.75 566.25
+  300.0 559.75
+  304.75 564.25
+  368.25 462.0
+  387.5 436.5
+endline
+
+line wall
+  84.0 655.0
+  80.25 644.75
+endline
+
+point 84.5 662.25 continuation
+
+point 111.25 633.75 continuation
+
+line floor-step
+  93.0 638.0
+  93.0 638.0 102.18 613.08 134.0 626.5
+  smooth off
+endline
+
+line wall
+  361.675 429.213
+  354.5 440.5
+  353.25 444.75
+  345.75 455.75
+  339.5 472.75
+  331.25 483.0
+  329.75 490.0
+  321.0 504.25
+  320.0 509.75
+  308.5 528.75
+  304.5 539.0
+  296.5 552.5
+  287.75 559.75
+  292.715 561.983
+  70.75 635.25
+  74.75 647.0
+endline
+
+point 389.5 444.25 continuation
+
+area pebbles
+  l65-442-315
+endarea
+
+line rock-border
+  321.75 536.0
+  320.0 528.5
+  322.25 525.25
+  324.0 520.25
+  326.75 518.25
+  330.75 517.0
+  329.75 514.0
+  333.0 510.5
+  335.5 504.5
+  339.25 501.5
+  343.5 501.5
+endline
+
+area pebbles
+  l85-331-547
+endarea
+
+line border -id l85-331-547 -close on -reverse on -subtype invisible
+  291.0 538.25
+  310.75 545.75
+  344.75 486.25
+  324.0 474.0
+  291.0 538.25
+endline
+
+line border -id l65-442-315 -close on -reverse on -subtype invisible
+  416.25 293.75
+  437.0 318.5
+  507.0 259.75
+  492.75 239.25
+  416.25 293.75
+endline
+
+area pebbles
+  l63-396-440
+endarea
+
+line border -id l63-396-440 -close on -reverse on -subtype invisible
+  373.75 419.75
+  399.5 436.0
+  442.0 385.25
+  419.75 367.5
+  373.75 419.75
+endline
+
+line pit -close on
+  375.75 437.25
+  377.5 433.0
+  382.25 432.25
+  386.0 433.5
+  387.5 436.5
+  382.75 440.75
+  380.0 440.25
+  375.75 437.25
+endline
+
+line floor-step
+  589.0 148.25
+  589.0 148.25 563.0 135.25 565.75 116.25
+  smooth off
+endline
+
+line floor-step
+  580.5 171.75
+  580.5 171.75 590.25 175.5 592.75 186.5
+  smooth off
+endline
+
+line floor-step
+  528.5 210.25
+  528.5 210.25 541.75 213.25 542.5 226.75
+  smooth off
+endline
+
+line rock-border -close on
+  407.75 308.75
+  413.0 312.5
+  416.0 312.75
+  419.0 315.25
+  422.75 316.75
+  427.75 318.0
+  430.25 321.25
+  430.75 327.75
+  423.5 330.25
+  420.0 332.25
+  420.5 336.25
+  420.5 339.0
+  426.5 346.5
+  429.25 350.0
+  426.25 351.25
+  423.0 352.0
+  395.25 322.75
+  392.5 320.0
+  407.75 308.75
+endline
+
+point 498.75 234.75 water-flow -orientation 80.4 -subtype intermittent
+
+line floor-step
+  507.25 252.25
+  507.25 252.25 506.75 233.25 522.75 239.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  461.75 262.0
+  461.75 262.0 469.0 286.0 479.0 282.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  423.0 292.75
+  423.0 292.75 432.0 313.0 441.0 312.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  401.0 389.75
+  401.0 389.75 409.75 409.75 423.5 406.5
+  smooth off
+endline
+
+line floor-step -reverse on
+  382.25 409.5
+  382.25 409.5 393.25 427.25 405.5 427.0
+  smooth off
+endline
+
+line floor-step -reverse on
+  361.675 429.213
+  377.0 438.5
+endline
+
+line wall -reverse on
+  423.0 336.5
+  420.5 339.0
+  426.5 346.5
+  432.0 352.5
+  435.5 357.0
+  439.0 361.5
+  439.0 361.5 443.75 392.25 382.75 440.75
+  smooth off
+endline
+
+line wall -close off
+  423.0 336.5
+endline
+
+line wall -reverse on
+  604.5 171.5
+  429.5 316.5
+  429.5 316.5 436.5 332.5 423.0 336.5
+  smooth off
+endline
+
+line wall -reverse on
+  537.75 85.0
+  604.5 171.5
+endline
+
+line wall -reverse on
+  415.75 302.5
+  593.0 165.75
+  560.5 124.0
+  535.0 87.25
+endline
+
+line wall
+  407.75 293.75
+  415.75 302.5
+endline
+
+line wall -reverse on
+  379.25 331.0
+  395.385 318.093
+  413.5 303.75
+  406.5 295.5
+endline
+
+line wall -reverse on
+  395.25 322.75
+  380.75 332.5
+endline
+
+line wall -reverse on
+  424.75 354.75
+  395.25 322.75
+endline
+
+line wall
+  386.0 405.0
+  386.0 405.0 430.0 365.75 424.75 354.75
+  smooth off
+endline
+
+point 94.405 617.363 station -name 11@studnia1
+
+point 77.485 635.143 station -name 12@studnia1
+
+point 162.005 608.403 station -name 10@studnia1
+
+point 292.715 561.983 station -name 9@studnia1
+
+point 597.495 162.713 station -name 17@studnia1
+
+point 395.385 318.093 station -name 14.1@studnia1
+
+point 435.325 361.603 station -name 13@studnia1
+
+point 361.675 429.213 station -name 20@studnia1
+
+endscrap
+
+
+
+scrap scrap5 -projection plan -scale [141.5 4.0 8.25 150.0 0.0 0.0 1 1 m]
+
+line wall -reverse on
+  359.25 425.0
+  361.675 429.213
+endline
+
+line wall
+  359.25 425.0
+  353.0 430.25
+  348.25 432.75
+  344.75 430.5
+  342.0 427.5
+  338.25 422.0
+endline
+
+line pit
+  359.25 425.0
+  355.75 421.75
+endline
+
+line wall
+  346.5 413.25
+  355.75 421.75
+  386.0 405.0
+endline
+
+line wall
+  337.25 397.25
+  342.0 402.25
+  346.75 415.25
+  348.5 421.5
+  344.0 424.25
+  338.25 422.0
+  336.0 414.75
+  335.5 408.75
+endline
+
+line pit
+  336.0 414.75
+  342.75 416.75
+  342.25 423.75
+endline
+
+line wall -subtype underlying
+  335.5 408.75
+  332.75 398.75
+endline
+
+point 340.105 415.493 station -name 6@studnia1
+
+point 361.675 429.213 station -name 7@studnia1
+
+line wall -subtype presumed
+endline
+
+line wall
+endline
+
+line wall
+endline
+
+endscrap
+
+

@@ -1,0 +1,36 @@
+encoding  utf-8
+language ru
+
+source main.th
+#select surface.main
+select studnia1.main
+select studnia2.main
+
+select map1@main
+
+export model -format survex
+export model
+
+layout normal
+  symbol-set BCRA
+  scale 1 200
+  doc-author "Paweł Krawczyk"
+  doc-title "колодец в Хара-Хора"
+  legend on
+  statistics explo all  
+     statistics topo all
+     statistics carto all
+     statistics copyright all
+  map-comment "Баксанское ущеле, село Заюково"
+endlayout
+
+export map -format pdf -layout normal
+
+layout xvi-export
+  scale 1 200
+  grid-size 1 1 1 m
+endlayout
+
+#export map -fmt xvi -layout xvi-export
+export map -projection elevation -layout xvi-export -fmt xvi -o cave_ext.xvi
+export model -output model.kml

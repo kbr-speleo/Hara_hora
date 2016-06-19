@@ -1,0 +1,28 @@
+encoding  utf-8
+survey main -title "колодец в Хара-Хора"
+  
+  input studnia1
+  input studnia2
+  input surface
+  input mapa
+  input ext
+  
+  map map1
+    scrap1
+    scrap2
+    scrap3
+    scrap4
+    scrap5
+  endmap
+  
+  map ext
+   scrapext
+   endmap
+  
+  centerline
+    equate 1@surface 1@studnia1
+    equate 3@studnia2 3@surface
+  endcenterline
+
+endsurvey
+

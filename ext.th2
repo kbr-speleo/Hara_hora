@@ -1,0 +1,140 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999989 502.015 1466.58
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {186.50799999999998 1 1.0} {1240.1570000000002 1@studnia1} cave_ext.xvi 0 {}
+
+
+
+scrap scrapext -projection elevation -scale [79.0 1023.0 98.0 1042.0 0.0 0.0 1 1 m]
+
+line wall
+endline
+
+line wall
+endline
+
+line wall -subtype blocks
+endline
+
+line rock-border -close on -reverse on
+  193.0 661.5
+  197.5 662.5
+  200.25 662.75
+  205.0 662.0
+  206.0 659.0
+  201.75 657.0
+  197.25 656.0
+  193.0 661.5
+endline
+
+line rock-border -close on -reverse on
+  177.75 1081.0
+  187.0 1081.0
+  185.25 1077.0
+  180.0 1076.25
+  177.75 1081.0
+endline
+
+line wall
+  206.768 662.397
+  218.0 687.0
+  226.0 721.0
+  233.5 763.0
+  241.0 779.0
+  241.0 800.0
+  245.5 829.5
+  248.0 846.5
+  236.5 873.0
+  221.0 876.5
+  207.0 888.0
+  187.75 892.75
+  186.5 896.75
+  197.5 900.5
+endline
+
+line wall -subtype blocks
+  197.5 900.5
+  197.0 965.0
+endline
+
+line wall
+  197.0 965.0
+  188.0 973.0
+  187.0 1264.5
+  193.0 1268.0
+endline
+
+line wall
+  273.5 310.0
+  273.5 310.0 229.18 629.28 206.768 662.397
+endline
+
+point 61.75 1165.75 label -text "Входной колодец"
+
+point 111.0 390.25 label -text "Болшая трещина"
+
+point 128.5 891.25 label -text "Шкурник"
+
+line wall -subtype debris
+endline
+
+point 174.0 1263.0 entrance -orientation 153.4
+
+line wall -subtype debris
+  229.0 311.0
+  273.5 310.0
+endline
+
+line wall
+  193.0 661.5
+  193.0 661.5 233.0 348.5 229.0 311.0
+endline
+
+line wall
+  231.5 834.0
+  227.5 827.0
+  218.5 824.0
+  206.5 817.0
+  180.0 773.5
+  165.5 737.0
+  158.5 709.0
+  168.5 693.0
+  184.5 681.0
+  192.5 667.5
+  193.0 661.5
+endline
+
+line wall -subtype debris
+  179.75 871.25
+  206.0 856.0
+  217.0 841.0
+  231.5 834.0
+endline
+
+line wall
+endline
+
+line wall
+  180.0 892.0
+  177.5 889.75
+  177.0 884.75
+  177.5 876.75
+  179.75 871.25
+endline
+
+line wall
+  172.0 1242.5
+  177.5 1239.0
+  177.5 1082.75
+  177.5 897.5
+  181.5 895.75
+  180.0 892.0
+endline
+
+point 231.63799999999998 370.077 station -name 7@studnia1
+
+point 186.50799999999998 1240.1570000000002 station -name 1@studnia1
+
+endscrap
+
+
