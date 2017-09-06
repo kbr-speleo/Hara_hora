@@ -16,8 +16,6 @@ export model -format survex
 export model
 
 layout normal
-  #symbol-set BCRA
-  #scale 1 200
   doc-author "Paweł Krawczyk"
   doc-title "Колодец в Хара-Хора"
   legend on
@@ -28,7 +26,7 @@ layout normal
   symbol-hide group cave-centerline
   symbol-show group text
   symbol-show point cave-station
-  map-comment "Баксанское ущелье, село Заюково"
+  map-comment "https://github.com/kbr-speleo/Hara_hora"
 endlayout
 
 export map -format pdf -layout normal
