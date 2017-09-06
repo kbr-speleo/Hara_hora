@@ -1,0 +1,82 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -136.0 -2630.0 1156.0 144.0
+##XTHERION## xth_me_area_zoom_to 50
+
+# 2017.08.20 created by TopoDroid v. 3.4.1h
+
+#P  u:user label air-draught blocks clay continuation debris entrance sand stalactite stalagmite water-flow
+#L  u:user wall arrow border pit rock-border slope
+#A  u:user water blocks clay debris sand
+
+
+
+
+scrap Harahora-4s -projection extended -scale [0 0 100 0 0 0 1 0 m]
+
+line rock-border -close on -reverse on
+  638.0 -739.0
+  743.0 -743.0
+  842.0 -763.0
+  872.0 -816.0
+  848.0 -841.0
+  809.0 -860.0
+  728.0 -863.0
+  668.0 -854.0
+  629.0 -833.0
+  601.0 -790.0
+  638.0 -739.0
+endline
+
+line wall -id line4r
+  956.0 -482.0
+  908.0 -326.0
+  814.0 -202.0
+endline
+
+line wall
+  1024.0 -966.0
+  1024.0 -966.0 1018.0 -700.0 956.0 -482.0
+  smooth off
+endline
+
+line rock-border -close on -reverse on
+  452.0 -624.0
+  491.0 -619.0
+  529.0 -625.0
+  550.0 -651.0
+  539.0 -670.0
+  503.0 -693.0
+  440.0 -700.0
+  452.0 -624.0
+endline
+
+line wall -id line4l
+  380.0 -238.0
+  370.75 -303.16 414.53 -295.32 424.74 -360.89
+  430.8 -399.78 444.65 -437.08 446.8 -476.83
+  447.91 -497.39 447.76 -524.32 444.62 -544.43
+  442.77 -556.25 437.27 -570.78 436.0 -576.0
+  433.27 -587.25 440.75 -607.14 446.0 -614.0
+  461.99 -634.89 392.0 -967.0 394.0 -990.0
+  smooth off
+endline
+
+point 500.00 -600.00 station -name "9"
+
+point 441.20 -164.93 station -name "8"
+
+point 616.73 -602.00 station -name "10"
+
+point 687.22 -635.32 station -name "11"
+
+point 870.97 -2491.49 station -name "12"
+
+point 798.48 -2090.19 station -name "13"
+
+point 561.88 -2058.60 station -name "14"
+
+point 751.90 -2455.94 station -name "34"
+
+endscrap
+
+

@@ -1,0 +1,78 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -129.0 -827.5 687.75 138.75
+##XTHERION## xth_me_area_zoom_to 400
+
+# 2017.08.20 created by TopoDroid v. 3.4.1h
+
+#P  u:user label air-draught blocks clay continuation debris entrance sand stalactite stalagmite water-flow
+#L  u:user wall arrow border pit rock-border slope
+#A  u:user water blocks clay debris sand
+
+
+
+
+scrap Harahora-1p -projection plan -scale [0 0 100 0 0 0 1 0 m]
+
+line wall -reverse on
+  396.8 -551.31
+  400.03 -544.53 405.43 -539.77 409.19 -533.27
+  smooth off
+endline
+
+point 410.0 -647.75 entrance -orientation 57.0
+
+line wall -reverse on
+  409.19 -533.27
+  424.9 -534.64 430.94 -551.48 442.3 -559.69
+  454.2 -568.29 466.89 -575.69 478.68 -583.61
+  481.76 -585.68 481.95 -588.77 485.06 -590.84
+  492.44 -595.75 500.15 -601.33 507.16 -607.03
+  509.7 -609.1 510.4 -611.99 513.41 -613.61
+  513.67 -613.75 518.19 -615.18 518.75 -615.59
+  521.73 -617.77 521.51 -621.17 524.86 -623.18
+  528.55 -625.4 555.51 -641.49 557.2 -643.83
+  564.27 -653.64 546.7 -661.3 543.1 -667.0
+  541.34 -669.8 540.47 -673.75 538.0 -676.25
+  smooth off
+endline
+
+line wall
+  396.8 -551.31
+  389.44 -560.66 376.72 -565.03 370.57 -575.2
+  smooth off
+endline
+
+line wall -reverse on
+  538.0 -676.25
+  535.0 -676.5 532.75 -697.5 513.7 -698.28
+  500.59 -698.82 473.76 -670.02 461.75 -663.19
+  smooth off
+endline
+
+line wall
+  370.57 -575.2
+  367.17 -576.95 365.25 -583.23 367.17 -586.95
+  368.97 -590.44 372.5 -591.4 375.39 -593.6
+  380.22 -597.28 383.49 -602.93 388.32 -606.71
+  398.56 -614.72 408.79 -622.56 419.26 -630.18
+  427.45 -636.14 435.35 -643.99 443.5 -649.25
+  450.19 -653.57 445.5 -651.79 450.89 -654.77
+  455.45 -657.3 456.05 -661.34 461.75 -663.19
+  smooth off
+endline
+
+point 500.00 -600.00 station -name "0"
+
+point 417.28 -630.57 station -name "1"
+
+point 483.15 -628.76 station -name "2"
+
+point 471.70 -623.60 station -name "3"
+
+point 412.09 -575.52 station -name "4"
+
+point 557.03 -653.54 station -name "5"
+
+endscrap
+
+

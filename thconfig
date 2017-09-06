@@ -1,36 +1,43 @@
 encoding  utf-8
 language ru
 
-source main.th
-#select surface.main
-select studnia1.main
-select studnia2.main
+source Harahora.th
 
-select map1@main
+select Harahora
+
+select m1p@Harahora
+select m2p@Harahora
+select m3p@Harahora
+select m4p@Harahora
+select m5p@Harahora
+
 
 export model -format survex
 export model
 
 layout normal
-  symbol-set BCRA
-  scale 1 200
+  #symbol-set BCRA
+  #scale 1 200
   doc-author "Paweł Krawczyk"
-  doc-title "колодец в Хара-Хора"
+  doc-title "Колодец в Хара-Хора"
   legend on
   statistics explo all  
-     statistics topo all
-     statistics carto all
-     statistics copyright all
-  map-comment "Баксанское ущеле, село Заюково"
+  statistics topo all
+  statistics carto all
+  statistics copyright all
+  symbol-hide group cave-centerline
+  symbol-show group text
+  symbol-show point cave-station
+  map-comment "Баксанское ущелье, село Заюково"
 endlayout
 
 export map -format pdf -layout normal
-
-layout xvi-export
-  scale 1 200
-  grid-size 1 1 1 m
-endlayout
-
-#export map -fmt xvi -layout xvi-export
-export map -projection elevation -layout xvi-export -fmt xvi -o cave_ext.xvi
 export model -output model.kml
+
+select m1s@Harahora
+select m2s@Harahora
+select m3s@Harahora
+select m4s@Harahora
+select m5s@Harahora
+
+export map -projection extended -fmt pdf -layout normal -o cave_ext.pdf
